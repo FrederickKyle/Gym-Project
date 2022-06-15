@@ -1,0 +1,72 @@
+body{
+    background-image: url('images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 2500px 1000px;
+}
+
+.word{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: 150px;
+}
+
+.sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    border: 10px solid rgb(160, 111, 21);
+    border-radius: 25px;
+    
+}
+
+#username{
+    margin: 25px;
+    margin-left: 25%;
+}
+
+#password{
+    margin-left: 25%;
+}
+
+#butn{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#out{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: serif;
+}
+
+.pages, a{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 60px;
+    color: silver;
+}
+
+a:hover{
+    color: rgb(49, 236, 12);
+}
+
+.navbar-area, .links{
+    display: inline;
+    margin-left: 10%;
+    
+}
+
+.navbar-area{
+    font-size: 25px;
+    font-family:cursive;
+    color: aliceblue;
+}

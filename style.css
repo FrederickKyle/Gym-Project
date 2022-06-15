@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+    color: blue;
+}
+
+.pages, a{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 60px;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+.navbar-area, .links{
+    display: inline;
+    margin-left: 10%;
+    
+}
+
+.navbar-area{
+    font-size: 25px;
+    font-family:cursive;
+    color: white;
+}
+
+.landing{
+    text-align: center;
+}
+
+#title{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title{
+    text-align: center;
+}
+
+.requip-images{
+    display: grid;
+    grid-template-rows: 1;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.clothes, .racket{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-20%, 5%);
+    font-size: 25px;
+}
+
+.racket{
+    margin-top: 20%;
+    padding: 150px;
+}
+
+.shuttlecock{
+    position: absolute;
+    top: 175%;
+    left: 50%;
+    transform: translate(-20%, 5%);
+    font-size: 25px;
+}
+
+.shoes{
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-20%, 5%);
+    font-size: 25px;
+}
+
+.requip-images{
+    margin-left: 5%;
+}
+
+.optional{
+    text-align: center;
+    font-size: 25px;
+}
+
+.wordz{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.requip{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: none;
+}
+
+.wordz, .requip{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.badminton-rules{
+    font-size: 25px;
+    margin-left: 15%;
+}
+
+.step-by-step{
+    list-style-type: circle;
+}
+
+.rules{
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.website{
+    color: purple;
+}
+
+.website:hover{
+    color: blue;
+}
+
+.broski{
+    width: 620px;
+    margin-left: 5px;
+}
+
+.sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 25px;
+    
+}
+
+#username{
+    margin: 25px;
+    margin-left: 25%;
+}
+
+#password{
+    margin-left: 25%;
+}
+
+#butn{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#out{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: serif;
+}
+
+.navbar{
+    white-space: nowrap;
+    resize: inline;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.about{
+    text-align: center;
+}
+
+.big{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.court{
+    margin-left: 35%;
+}
